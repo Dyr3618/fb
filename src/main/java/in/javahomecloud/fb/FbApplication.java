@@ -5,7 +5,6 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
 @RestController
-public class HelloApplication {
 public class FbApplication {
 	@GetMapping("/getmsg")
 	public String getMsg()
